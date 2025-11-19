@@ -14,7 +14,7 @@ public class DivVetor {
 		a = new int [TAM];
 
         for (i = 0; i<TAM; i++) {
-        	System.out.println("Digite o valor do vetor A");
+        	System.out.println("Digite o valor do dividendo");
         	a[i] = in.nextInt();
             
             System.out.print("Divisores do " + a[i] + ": ");
