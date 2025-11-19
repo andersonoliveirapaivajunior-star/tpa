@@ -14,7 +14,7 @@ public class SomVetores {
         b = new int[TAM];
 
         for (i = 0; i < TAM; i++) {
-            System.out.print("Digite A[" + i + "]: ");
+            System.out.print("Digite os balores[" + i + "]: ");
             a[i] = in.nextInt();
         }
 
@@ -29,14 +29,14 @@ public class SomVetores {
             b[i] = s;
         }
 
-        System.out.print("A = (");
+        System.out.print("numero = (");
         for (i = 0; i < TAM; i++) {
             System.out.print(a[i]);
             if (i < TAM - 1) System.out.print(", ");
         }
         System.out.println(")");
 
-        System.out.print("B = (");
+        System.out.print("soma = (");
         for (i = 0; i < TAM; i++) {
             System.out.print(b[i]);
             if (i < TAM - 1) System.out.print(", ");
