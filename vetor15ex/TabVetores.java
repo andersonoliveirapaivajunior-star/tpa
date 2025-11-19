@@ -13,7 +13,7 @@ public class TabVetores {
 	    a = new int [TAM];
 	    
 	    for (i=0; i<TAM; i++) {
-	    	System.out.println("Digite os valores do veter A:");
+	    	System.out.println("Digite os valores do vetor A:");
 	    	a[i] = in.nextInt();
 	    	
 	    	for (t=1; t<11; t++) {
